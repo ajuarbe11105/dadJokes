@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0BB2F85C2711142E00CCF3ED /* DadJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2F85B2711142E00CCF3ED /* DadJokesApp.swift */; };
-		0BB2F85E2711142E00CCF3ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2F85D2711142E00CCF3ED /* ContentView.swift */; };
+		0BB2F85E2711142E00CCF3ED /* JokesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2F85D2711142E00CCF3ED /* JokesListView.swift */; };
 		0BB2F8602711142F00CCF3ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2F85F2711142F00CCF3ED /* Assets.xcassets */; };
 		0BB2F8632711142F00CCF3ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2F8622711142F00CCF3ED /* Preview Assets.xcassets */; };
+		0BB2F86C271114FB00CCF3ED /* Jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB2F86B271114FB00CCF3ED /* Jokes.json */; };
+		0BB2F86E2711156200CCF3ED /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2F86D2711156200CCF3ED /* JokeModel.swift */; };
+		0BB33CF52713464D0050701D /* JokesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB33CF42713464D0050701D /* JokesDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BB2F8582711142E00CCF3ED /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB2F85B2711142E00CCF3ED /* DadJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesApp.swift; sourceTree = "<group>"; };
-		0BB2F85D2711142E00CCF3ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0BB2F85D2711142E00CCF3ED /* JokesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesListView.swift; sourceTree = "<group>"; };
 		0BB2F85F2711142F00CCF3ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB2F8622711142F00CCF3ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BB2F86B271114FB00CCF3ED /* Jokes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jokes.json; sourceTree = "<group>"; };
+		0BB2F86D2711156200CCF3ED /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		0BB33CF42713464D0050701D /* JokesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				0BB2F85B2711142E00CCF3ED /* DadJokesApp.swift */,
-				0BB2F85D2711142E00CCF3ED /* ContentView.swift */,
+				0BB2F86D2711156200CCF3ED /* JokeModel.swift */,
+				0BB2F85D2711142E00CCF3ED /* JokesListView.swift */,
 				0BB2F85F2711142F00CCF3ED /* Assets.xcassets */,
 				0BB2F8612711142F00CCF3ED /* Preview Content */,
+				0BB2F86B271114FB00CCF3ED /* Jokes.json */,
+				0BB33CF42713464D0050701D /* JokesDetailView.swift */,
 			);
 			path = DadJokes;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BB2F86C271114FB00CCF3ED /* Jokes.json in Resources */,
 				0BB2F8632711142F00CCF3ED /* Preview Assets.xcassets in Resources */,
 				0BB2F8602711142F00CCF3ED /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB2F85E2711142E00CCF3ED /* ContentView.swift in Sources */,
+				0BB2F85E2711142E00CCF3ED /* JokesListView.swift in Sources */,
 				0BB2F85C2711142E00CCF3ED /* DadJokesApp.swift in Sources */,
+				0BB33CF52713464D0050701D /* JokesDetailView.swift in Sources */,
+				0BB2F86E2711156200CCF3ED /* JokeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
